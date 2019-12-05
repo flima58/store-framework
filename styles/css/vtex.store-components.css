@@ -18,13 +18,13 @@
     background-color: #fff;
     border: transparent;
 }
-.infoCardCallActionContainer :global(.vtex-button){
+.infoCardCallActionText {
     border: 2px solid #fff;
     padding: 10px 20px ;
     border-radius:5px;
     color:black;
 }
-.infoCardCallActionContainer :global(.vtex-button):hover{
+.infoCardCallActionText:hover{
     border: 2px solid #fff;
     padding: 10px 20px ;
     border-radius:5px;
@@ -39,14 +39,13 @@
     background:#e1e1e1;
 }
 
-.infoCardTextContainer{
+.infoCardContainer{
      max-width:1260px;
      margin: 0 auto;
      padding:0;
 } 
 
-
-.infoCardHeadline{
+.infoCardCallActionText{
     color:black;
     font-weight:bold;
 }
