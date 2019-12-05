@@ -15,8 +15,11 @@
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
     color: gray;
-    background-color: #fff;
+    background-color: blue;
     border: transparent;
+}
+.infoCardCallActionContainer :global(.vtex-button):hover {
+    background-color: black;
 }
 .infoCardCallActionText {
     border: 2px solid #fff;
@@ -24,6 +27,12 @@
     border-radius:5px;
     color:black;
 }
+
+.infoCardHeadline{
+    color:black;
+    font-weight:bold;
+}
+
 .infoCardCallActionText:hover{
     border: 2px solid #fff;
     padding: 10px 20px ;
@@ -47,5 +56,5 @@
 
 .infoCardCallActionText{
     color:black;
-    font-weight:bold;
+
 }
